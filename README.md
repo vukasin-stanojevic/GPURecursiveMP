@@ -6,7 +6,6 @@
 
 ## Abstract
 In this work, we consider the problem of calculating the generalized Moore–Penrose inverse, which is essential in many applications of graph theory. We propose an algorithm for the massively parallel systems based on the recursive algorithm for the generalized Moore–Penrose inverse, the generalized Cholesky factorization, and Strassen’s matrix inversion algorithm. Computational experiments with our new algorithm based on a parallel computing architecture known as the Compute Unified Device Architecture (CUDA) on a graphic processing unit (GPU) show the significant advantages of using GPU for large matrices (with millions of elements) in comparison with the CPU implementation from the OpenCV library. 
-<p align="center"><img src="assets/overview.png" width="600"/></p>
 
 # Citation
 
